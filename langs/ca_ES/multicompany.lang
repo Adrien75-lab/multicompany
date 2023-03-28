@@ -1,0 +1,167 @@
+# Copyright (C) 2009-2018 Regis Houssin  <regis.houssin@inodbox.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+CHARSET=UTF-8
+Module5000Name=Multi-Empresa
+Module5000Desc=Gestió de Multiempresa en una instal·lació simple
+
+MasterEntity=Entitat mestra
+MasterEntityDesc=Entitat mestra, no pot ser eliminada
+SwitchToAnotherEntity=Canviar d'entitat
+SelectAnEntity=Seleccionar una entitat
+AllEntities=Totes les entitas
+
+# Admin parameters tab
+EntitiesManagement=Gestió d'entitats
+ListOfEntities=Llistat d'entitats
+AddEntity=Afegir entitat
+EditEntity=Editar entitat
+EntityName=nom de l'entitat
+DefaultLanguageShort=Idioma per defecte
+CommonParameters=Paràmetres comuns d'accions
+ReferringEntity=Entitat de referència per als valors de configuració
+DeleteAnEntity=Eliminar una entitat
+ModifyEntity=Canviar entitat
+ConfirmDeleteEntity=Esteu segur de voler eliminar aquesta entitat?
+ConfirmedEntityDeleted=L'entitat ha estat eliminada.
+MulticompanyMoreModules=Altres móduls del mateix autor i hosting segur de Dolibarr són disponibles a %s
+MultiCompanyUpgradeIsNeeded=Utilitzes una nova versió del mòdul MULTICOMPANY, si us plau desactiveu i torneu a activar el mòdul per a que s'aplique l'actulització.
+
+THIRDPARTYSharing=Intercanviar tercers i contactes
+THIRDPARTYSharingDescription=Selecció d'entitats que intercanvien els seus tercers/contactes amb aquesta entitat.
+PRODUCTSharing=Intercanviar productes/serveis
+PRODUCTSharingDescription=Selecció d'entitats que intercanvien els seus productes/serveis amb aquesta entitat.
+PRODUCTPRICESharing=Compartir preu de productes/serveis
+PRODUCTPRICESharingDescription=Entitats que comparteixen preus de productes/serveis amb aquesta entitat.
+PRODUCTSUPPLIERPRICESharing=Share supplier prices of products/services
+PRODUCTSUPPLIERPRICESharingDescription=Selection of entities that share supplier prices of products/services with this entity.
+CATEGORYSharing=Intercanviar categories
+CATEGORYSharingDescription=Selecció d'entitats que intercanvien les seus categories amb aquesta entitat.
+AGENDASharing=Intercanviar agendes
+AGENDASharingDescription=Selecció d'entitats que intercanvien la agenda amb aquesta entitat.
+STOCKSharing=Intercanvi de stock
+STOCKSharingDescription=Conjunt d'entitats que comparteixen stock de productes amb aquesta entitat.
+BANKACCOUNTSharing=Intercanviar comptes  bancaris
+BANKACCOUNTSharingDescription=Selecció d'entitats que intercanvien els seus comptes bancaris amb aquesta entitat.
+INVOICENUMBERSharing=Intercanvi de numeració de factures
+INVOICENUMBERSharingDescription=Conjunt d'entitats que comparteixen factures amb aquesta entitat.
+EXPENSEREPORTSharing=Intercanvi d'informe de despeses
+EXPENSEREPORTSharingDescription=Conjunt d'entitats que comparteixen informes de despeses amb aquesta entitat.
+PROJECTSharing=Intercanvi de projectes
+PROJECTSharingDescription=Conjunt d'entitats que comparteixen projectes amb aquesta entitat.
+MEMBERSharing=Intercanvi de membres
+MEMBERSharingDescription=Conjunt d'entitats que comparteixen membres amb aquesta entitat.
+MEMBER_TYPESharing=Members type sharing
+MEMBER_TYPESharingDescription=Selection of entities that share members type with this entity.
+HOLIDAYSharing=Holidays sharing
+HOLIDAYSharingDescription=Selection of entities that share holidays with this entity.
+PROPOSALSharing=Customers proposals sharing
+PROPOSALSharingDescription=Selection of entities that share customers proposals with this entity.
+
+# Admin options tab
+Options=Opcions
+ActivatingShares=Activar intercanvi
+EntityActiveByDefault=Enable entities by default when they are created
+EntityVisibleByDefault=Make entities visible by default in the drop-down lists when they are created
+GroupModeTransversal=Activar gestió centralitzada d'usuaris i grups en l'entitat principal
+GroupModeTransversalTitle=Activar gestió centralitzada d'usuaris i grups
+GroupModeTransversalInfo=Per defecte, cada entitat és independent amb la seva pròpia gestió d'usuaris. Aquesta opció permet centralitzar la gestió d'usuaris i grups en l'entitat principal mitjançant l'assignació de drets relatius a un grup i a una entitat.
+GroupModeTransversalInfoFull=Per defecte, cada entitat és independent en la seva gestió. Esta opció fa posible centralitzar la gestió d'usuaris i grups en l'entitat principal mitjançant l'asignació de drets relatius a un grup i a una entitat. Cal crear grups d'usuari per gestionar els accessos a les entitats.
+HideLoginCombobox=Ocultar la selecció de l'entitat a la pàgina d'inici
+EnableGlobalSharings=Activar les funcions d'intercanvi entre entitats
+ShareProductsAndServices=Activar l'intercanvi de productes/serveis
+ProductSharingInfo=This option allows you to share products/services between entities.<br>INFO: If you want to be able to customize the price of the product in each entity, this requires enabling the "Several segment of prices per product/service" option in the Product/Service module configuration in each entity that uses this share.<br>If you want to personalize the VAT rates of the price levels, you have to add this constant:<br>"PRODUIT_MULTIPRICES_USE_VAT_PER_LEVEL" with as value 1 in each entity that uses this share.
+ShareProductsAndServicesPrices=Activar l'intercanvi de preus de productes/serveis
+ProductPriceSharingInfo=This option allows you to share the price levels of a product.<br>IMPORTANT: This requires enabling the "Several segment of prices per product/service" option in the Product/Service module configuration.
+ShareProductsServicesSupplierPrices=Enable sharing of products/services supplier prices
+ShareThirdpartiesAndContacts=Activar l'intercanvi de tercers i contactes
+ShareCategories=Activar l'intercanvi de preus de categories
+ShareAgenda=Activar l'intercanvi de l'agenda
+ShareStock=Activar l'intercanvi de stocks
+ShareBank=Activar l'intercanvi de comptes bancaris
+ShareInvoicesNumber=Activar l'intercanvi de numeració de factures
+InvoiceNumberSharingInfo=This option allows you to have an overall incrementation of the invoice numbers between the entities that use this share. You will need to select a referring entity for the configuration values of the selected numbering module. Each entity will have to use the same numbering model.
+ShareExpenseReport=Activar intercanvi d'informes de despeses
+ShareProject=Activar intercanvi de projectes
+ShareMembers=Activar intercanvi de membres
+ShareMembersType=Enable sharing of members type
+ShareHoliday=Enable sharing of holidays
+GlobalSharings=Sharing features
+GlobalSharingsInfo=En el moment que s'activen les opcions d'intercanvi, haurà de configurar cada entitat per permetre els intercanvis entre entitats.
+ActivatingDictsShares=Personalització de diccionaris
+DictsSharingsInfo=De manera predeterminada, totes les entitats utilitzen els diccionaris de l'entitat principal.<br>Pots activar la personalització d'un diccionari per tindre una versió diferent per entitat.
+ShareC_paiement=Activar personalització de mètodes de pagament per entitat (llx_c_paiement)
+ShareC_payment_term=Activar personalització de condicions de pagament per entitat (llx_c_payment_term)
+ActivatingObjectShares=Activating objects sharing
+ObjectSharingsInfo=After sharing options are activated, it will be necessary to configure each entity in the "Environments" tab to allow the shares between entities.
+ShareProposal=Share customers proposals
+
+# Admin caches tab
+MulticompanyCacheSystemInfo=The use of a cache can be useful if you have a large number of entities (≈50+), this will accelerate the display of Dolibarr.
+MulticompanySession=PHP $_SESSION cache
+MulticompanySessionDescription=The data is stored in the PHP $_SESSION global variable.<br>This cache is not shared and is limited to the current user.
+MulticompanyMemcached=Memcached server
+MulticompanyMemcachedDescription=This option allows you to use a Memcached server to improve the speed of display.<br>Requires a Memcached server and the Memcached or Memcache plugin for PHP.
+MulticompanyMemcachedUnavailable=Memcached or Memcache are not available on your PHP.
+MemcachedServerIsReady=The Memcached server is accessible
+MemcachedServerIsNotReady=The Memcached server is not accessible, check the address and port.
+MulticompanyShmop=Shared Memory (Shmop)
+MulticompanyShmopDescription=Shmop és un conjunt de funcions simples per gestionar la memòria compartida amb PHP.<br>(Llegir, escriure i eliminar segments de memòria compartida de UNIX)
+MulticompanyShmopAvailable=Shmop is available on your PHP
+MulticompanyShmopUnavailable=Shmop is not available on your PHP
+
+# Select/Change entity
+GlobalEntityDesc=La modificació de l'entitat sols serà permesa si cap document ha estat creat (Pressupostos, comandes, factures...)
+ThirdpartyEntityDesc=Pots utilitzar l'entitat actual o assignar aquest tercer a un altra entitat
+ThirdpartyModifyEntity=You can change its membership entity
+ThirdpartyModifyEntityDescription=Vols canviar l'entitat d'aquest tercer?
+ThirdpartyModifyEntitySuccess=L'entitat d'aquest tercer ha estat modificada correctament
+ContactModifyEntity=You can change its membership entity
+ContactModifyEntityDescription=Would you like to change the entity of that contact?
+ContactModifyEntitySuccess=The entity of this contact has been modified successfully
+ModifyEntityNotAllowed=La modificació d'aquesta entitat no està permesa
+
+# Errors
+ErrorEntityLabelAlreadyExist=Error: L'etiqueta d'aquesta entitat ja existeix
+ErrorEntityIsNotValid=Error: Aquesta entitat no és vàlida
+ErrorNotDeleteMasterEntity=Error: No pots eliminar l'entitat mestra
+ErrorThirdpartyModifyEntity=Error: El canvi d'entitat d'aquest tercer no és pot finalitzar!
+ErrorDropDownListOfEntitiesMustBeHidden=The drop-down list of entities on the login page must be hidden!
+ErrorLinkUserGroupEntity=You must associate user with a group and one or more entities in order to define permissions !!
+ErrorMulticompanyConfAuthentication=You need to enable Multicompany authentication by changing this line in conf.php with this value: $dolibarr_main_authentication = 'mc';
+ErrorDolibarrConfAuthentication=You need to enable Dolibarr authentication by changing this line in conf.php with this value: $dolibarr_main_authentication = 'dolibarr';
+
+# Multiselect
+EntitiesSelected=Entities selected
+EntitiesAvailable=Entities available
+
+# Datatables
+CloseDialog=Tanca
+LineEntries=línies
+Showing=Mostrant
+ShowingOf=Showing of
+TotalOf=total de
+Print=Imprimeix
+FilteredFrom=filtrat des de
+TotalEntries=entrades totals
+ShowHideColumns=Mostra/oculta columnes
+LoadingDataFromServer=Carregant dades del servidor
+NoRecordsToDisplay=No hi ha registres per mostrar
+NoEntriesToShow=No hi ha entrades per mostrar
+Processing=Processant...
+To=fins a
+First=Primer
+Last=Últim
+Tools=Eines
